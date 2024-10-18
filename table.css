@@ -1,0 +1,188 @@
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0ebe4;
+    margin: 90px 90px 90px 150px ;
+    padding: 30px;
+    display: flex;
+    position: fixed;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 2s ease forwards;
+    position: fixed;
+}
+  body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+/* Sidebar */
+.sidebar {
+    background-color: #d6c4b0;
+    width: 100px;
+    padding-top: 160px;
+    height: 100vh;
+    position:fixed;
+    align-items: center;
+    left: 0;
+    top: 0;
+    animation: fadeIn 2s ease forwards;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    align-items: relative;
+    position:relative;
+    animation: fadeIn 2s ease forwards;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sidebar img {
+    text-decoration: none;
+    width: 80px; 
+    height: 80px; 
+    object-fit:cover; 
+    margin-top: 0px;
+    border-radius: 50%; 
+}
+.sidebar a:hover {
+    background-color: #b89a77;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Basic styling for the table */
+.table-container {
+    max-height: 900px;
+    overflow-y:auto;
+    border: 1px solid #ddd;
+    margin: 100px 100px 90px 250px; /* Menempatkan tabel di tengah secara horizontal */
+    max-width: 500%; /* Membatasi lebar tabel */
+    animation: fadeIn 2s ease forwards;
+    position: fixed;
+}
+
+table {
+    width: 100vh; 
+    border-collapse: collapse;
+    animation: fadeIn 2s ease forwards;
+}
+th {
+    text-align: center;
+    padding: 10px;
+    animation: fadeIn 2s ease forwards;
+}
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    animation: fadeIn 2s ease forwards;
+}
+
+/* Sticky header */
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    color: white;
+    z-index: 1;
+    animation: fadeIn 2s ease forwards;
+}
+
+/* Styling for even and odd rows */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #d1d1d1;
+}
+
+/* Limit table height and make it scrollable */
+.table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+/* Bagian untuk ikon media sosial */
+.social-media {
+    background-color: #d6c4b0;
+    width: 100px;
+    padding-top: 160px;
+    height: 100vh;
+    position: fixed;
+    text-align:center;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 20px;
+    color: #333;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  .social-media a:hover {
+    color: #b89a77;
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  /* Animasi fade-in untuk seluruh elemen */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  @keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  @keyframes fadeInButton {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  @keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }

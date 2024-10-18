@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel dengan Scroll dan Sticky Header</title>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <!-- Sidebar with icons -->
+    <div class="sidebar">
+        <a href="HalamanUtama.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="HalamanFormulir.html"><i class="fa fa-fw fa-file"></i>Formulir</a>
+        <a href="HalamanTabel.html"><i class="fa fa-fw fa-table"></i>Data</a>
+        <a href="Beranda.html"><i class="fa fa-fw fa-arrow-left"></i>Back</a>
+    </div>
+
+    <h2>Tabel Data Dummy</h2>
+    <!-- Data Dummy -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data dummy-->
+                <tr><td>1</td><td>Ghozi Alvin Karim</td><td>10-06-2003</td><td>Male</td></tr>
+                <tr><td>2</td><td>Siti Aisyah</td><td>15-04-1995</td><td>Female</td></tr>
+                <tr><td>3</td><td>Budi Santoso</td><td>12-09-1988</td><td>Male</td></tr>
+                <tr><td>4</td><td>Sri Rahayu</td><td>25-02-1992</td><td>Female</td></tr>
+                <tr><td>5</td><td>Hendra Wijaya</td><td>07-03-1985</td><td>Male</td></tr>
+                <tr><td>6</td><td>Ayu Lestari</td><td>29-08-1990</td><td>Female</td></tr>
+                <tr><td>7</td><td>Fajar Pratama</td><td>30-11-1987</td><td>Male</td></tr>
+                <tr><td>8</td><td>Rina Handayani</td><td>22-05-1994</td><td>Female</td></tr>
+                <tr><td>9</td><td>Indra Saputra</td><td>10-12-1991</td><td>Male</td></tr>
+                <tr><td>10</td><td>Dewi Anggraini</td><td>03-07-1993</td><td>Female</td></tr>
+                <tr><td>11</td><td>Rizky Firmansyah</td><td>08-10-1995</td><td>Male</td></tr>
+                <tr><td>12</td><td>Lia Setiawan</td><td>04-01-1989</td><td>Female</td></tr>
+                <tr><td>13</td><td>Arief Hidayat</td><td>23-06-1987</td><td>Male</td></tr>
+                <tr><td>14</td><td>Nia Marlina</td><td>17-12-1996</td><td>Female</td></tr>
+                <tr><td>15</td><td>Andi Nugraha</td><td>09-03-1986</td><td>Male</td></tr>
+                <tr><td>16</td><td>Putri Salsabila</td><td>14-08-1991</td><td>Female</td></tr>
+                <tr><td>17</td><td>Faisal Ardiansyah</td><td>19-11-1985</td><td>Male</td></tr>
+                <tr><td>18</td><td>Desi Oktaviani</td><td>30-04-1992</td><td>Female</td></tr>
+                <tr><td>19</td><td>Bayu Kurniawan</td><td>02-09-1984</td><td>Male</td></tr>
+                <tr><td>20</td><td>Intan Permata Sari</td><td>11-06-1989</td><td>Female</td></tr>
+                <tr><td>21</td><td>Dika Yulianto</td><td>27-02-1988</td><td>Male</td></tr>
+                <tr><td>22</td><td>Fitri Handayani</td><td>15-05-1993</td><td>Female</td></tr>
+                <tr><td>23</td><td>Rangga Pratama</td><td>05-12-1990</td><td>Male</td></tr>
+                <tr><td>24</td><td>Melati Aprilia</td><td>18-07-1992</td><td>Female</td></tr>
+                <tr><td>25</td><td>Rian Hidayat</td><td>28-10-1986</td><td>Male</td></tr>
+                <tr><td>26</td><td>Anisa Putri</td><td>03-04-1988</td><td>Female</td></tr>
+                <tr><td>27</td><td>Dimas Firmansyah</td><td>14-01-1991</td><td>Male</td></tr>
+                <tr><td>28</td><td>Ratna Sari Dewi</td><td>26-09-1994</td><td>Female</td></tr>
+                <tr><td>29</td><td>Arman Supriyadi</td><td>20-11-1989</td><td>Male</td></tr>
+                <tr><td>30</td><td>Lestari Wulandari</td><td>10-07-1995</td><td>Female</td></tr>
+                <tr><td>31</td><td>Rizky Firmansyah</td><td>08-10-1995</td><td>Male</td></tr>
+                <tr><td>32</td><td>Lia Setiawan</td><td>04-01-1989</td><td>Female</td></tr>
+                <tr><td>33</td><td>Arief Hidayat</td><td>23-06-1987</td><td>Male</td></tr>
+                <tr><td>34</td><td>Nia Marlina</td><td>17-12-1996</td><td>Female</td></tr>
+                <tr><td>35</td><td>Andi Nugraha</td><td>09-03-1986</td><td>Male</td></tr>
+                <tr><td>36</td><td>Putri Salsabila</td><td>14-08-1991</td><td>Female</td></tr>
+                <tr><td>37</td><td>Faisal Ardiansyah</td><td>19-11-1985</td><td>Male</td></tr>
+                <tr><td>38</td><td>Desi Oktaviani</td><td>30-04-1992</td><td>Female</td></tr>
+                <tr><td>39</td><td>Bayu Kurniawan</td><td>02-09-1984</td><td>Male</td></tr>
+                <tr><td>40</td><td>Intan Permata Sari</td><td>11-06-1989</td><td>Female</td></tr>
+                <tr><td>41</td><td>Dika Yulianto</td><td>27-02-1988</td><td>Male</td></tr>
+                <tr><td>42</td><td>Fitri Handayani</td><td>15-05-1993</td><td>Female</td></tr>
+                <tr><td>43</td><td>Rangga Pratama</td><td>05-12-1990</td><td>Male</td></tr>
+                <tr><td>44</td><td>Melati Aprilia</td><td>18-07-1992</td><td>Female</td></tr>
+                <tr><td>45</td><td>Rian Hidayat</td><td>28-10-1986</td><td>Male</td></tr>
+                <tr><td>46</td><td>Anisa Putri</td><td>03-04-1988</td><td>Female</td></tr>
+                <tr><td>47</td><td>Dimas Firmansyah</td><td>14-01-1991</td><td>Male</td></tr>
+                <tr><td>48</td><td>Ratna Sari Dewi</td><td>26-09-1994</td><td>Female</td></tr>
+                <tr><td>49</td><td>Arman Supriyadi</td><td>20-11-1989</td><td>Male</td></tr>
+                <tr><td>50</td><td>Lestari Wulandari</td><td>10-07-1995</td><td>Female</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bagian Media Sosial -->
+    <div class="social-media">
+        <a href="https://twitter.com/SabrinaAnnLynn" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/sabrinacarpenter/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/sabrinacarpenter" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@sabrinacarpenter" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+</body>
+</html>

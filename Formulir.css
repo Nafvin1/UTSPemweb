@@ -1,0 +1,165 @@
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0ebe4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+/* Sidebar */
+.sidebar {
+  background-color: #d6c4b0;
+  width: 100px;
+  padding-top: 160px;
+  height: 100vh;
+  position:fixed;
+  align-items: center;
+  left: 0;
+  top: 0;
+  animation: fadeIn 2s ease forwards;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  align-items: relative;
+  position:relative;
+  animation: fadeIn 2s ease forwards;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sidebar img {
+  text-decoration: none;
+  width: 80px; 
+  height: 80px; 
+  object-fit:cover; 
+  margin-top: 0px;
+  border-radius: 50%; 
+}
+.sidebar a:hover {
+  background-color: #b89a77;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* style Formulir */
+.container {
+  max-width: 800px;
+  width: 500px;
+  height: 500px; 
+  margin: 80px auto; 
+  background-color: #d6c4b0;
+  padding: 50px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  animation: fadeIn 5s ease forwards;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Beri jarak yang cukup di bawah judul */
+  font-size: 25px;
+  font-family: 'comic sans ms';
+}
+label {
+  font-family:'Segoe UI';
+  display: block;
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+input, select, button {
+  width: 100%;
+  padding: 10px; 
+  margin-bottom: 15px;
+  border-radius: 5px;
+  position:static;
+  border: 1px solid #d6c4b0;
+}
+button {
+  font-size: 20px;
+  background-color: #4CAF50;
+  align-items: center ;
+  width: 20%;
+  margin-left: 400px;
+  color: rgb(232, 237, 233);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #b44f23;
+  transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+/* Bagian untuk ikon media sosial */
+.social-media {
+  background-color: #d6c4b0;
+  width: 100px;
+  padding-top: 160px;
+  height: 100vh;
+  position: fixed;
+  text-align:center;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 3s ease forwards;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 28px;
+  padding: 20px;
+  color: #333;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+  animation: fadeIn 3s ease forwards;
+}
+
+.social-media a:hover {
+  color: #b89a77;
+  animation: fadeIn 3s ease forwards;
+}
+
+/* Animasi fade-in untuk seluruh elemen */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@keyframes fadeInText {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+@keyframes fadeInButton {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+@keyframes fadeInLogo {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

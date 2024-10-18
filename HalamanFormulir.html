@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Annlynn Carpenter</title>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Formulir.css">
+</head>
+
+<body>
+    <!-- Sidebar with icons -->
+    <div class="sidebar">
+        <a href="HalamanUtama.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="HalamanFormulir.html"><i class="fa fa-fw fa-file"></i>Formulir</a>
+        <a href="HalamanTabel.html"><i class="fa fa-fw fa-table"></i>Data</a>
+        <a href="Beranda.html"><i class="fa fa-fw fa-arrow-left"></i>Back</a>
+    </div>
+
+    <!-- Bagian Formulir -->
+    <div class="container">
+        <h2>Registration Fans Sabrina Carpenter</h2>
+        <form method="GET" action="/submit-form">
+            <!-- Name Field -->
+            <label for="name" ><i class="fa fa-user icon"></i> Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Ghozi Alvin Karim" >
+    
+            <!-- Date of Birth Field -->
+            <label for="dob"><i class="fa fa-calendar"></i> Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+    
+            <!-- Gender Radio Buttons -->
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+            <required>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+            </required>
+            </select>
+    
+            <!-- Accept Terms Checkbox -->
+            <label for="terms">Agree to be a Carpenter fan</label>
+            <input type="checkbox" id="terms" name="terms" value="accepted" required>
+    
+            <!-- Password Field -->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bagian Media Sosial -->
+    <div class="social-media">
+        <a href="https://twitter.com/SabrinaAnnLynn" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/sabrinacarpenter/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/sabrinacarpenter" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@sabrinacarpenter" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+
+</body>
+</html>
